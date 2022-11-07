@@ -1,0 +1,6 @@
+للحصول على بينانات دائمة نقوم باستخدام Mongodb atlas أو Local server Mongodb
+أولا نعد databae في ال cluster باسم mongodb و collection = person
+والإعداد في Spring boot كما يلي
+نضيف لملف application.properties ما يلي
+نأخذ من cluster من mongodb atlas تعريف لل connection ونضيفه للعبارة التالية في الملف المذكور مع تغيير كلمة المرور لل database
+spring.data.mongodb.url = 

@@ -1,0 +1,7 @@
+api_doc_url : http://controller.localhost.com
+spring:
+  data:
+    mongodb:
+      database: person
+      host: mongo
+      port: 27017
